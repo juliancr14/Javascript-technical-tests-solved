@@ -1,9 +1,9 @@
 function findFirstRepeated(gifts) {
 
-    let repeated = [];
+    let repeatedByJulianC = [];
     let repeatedI = [];
     let firstRepeated;
-    let y = 0;
+    let o = 0;
     let z = 0;
     
     //Este ciclo obtiene los números repetidos y los guarda en el array repeated
@@ -14,8 +14,8 @@ function findFirstRepeated(gifts) {
         for (let x = i + 1; x < gifts.length; x++) {
 
             if (id == gifts[x]) {
-                repeated[y] = id;
-                y++;
+                repeatedByJulianC[o] = id;
+                o++;
             }
    
         }
@@ -57,8 +57,8 @@ function findFirstRepeated(gifts) {
     console.log("The first repeated number is: " + firstRepeated);
 
     //Mostrar números repetidos en orden normal
-    for (let i = 0; i < repeated.length; i++) {
-        console.log(repeated[i]);
+    for (let i = 0; i < repeatedByJulianC.length; i++) {
+        console.log(repeatedByJulianC[i]);
     }
 
     //Mostrar números repetidos en orden inverso
