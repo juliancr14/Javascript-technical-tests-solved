@@ -1,2 +1,3 @@
 # Javascript-technical-test-solved
-## Test solved to improve my programming skills
+## Tests solved to improve my programming skills
+  1. Find the first repeated number
