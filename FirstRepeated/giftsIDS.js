@@ -57,4 +57,4 @@ console.log(firstRepeatedId2);
 
 const giftIds3 = [5, 1, 5, 1];
 const firstRepeatedId3 = findFirstRepeated(giftIds3);
-console.log(firstRepeatedId3);
+console.log(firstRepeatedId3);2
